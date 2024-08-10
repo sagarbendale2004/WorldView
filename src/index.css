@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode */
+html.light {
+    --background-color: rgb(240 240 240);
+    --text-color: #000000;
+  }
+  
+  /* Dark Mode */
+  html.dark {
+    --background-color:#152132;
+    --text-color: #ffffff;
+  }
+  
+  /* Apply the theme variables */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+ /* Custom CSS */
+/* @media (max-width: 768px) {
+    .flexC {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .inp {
+        width: 75%;
+    }
+
+    .wid {
+        width: 75%;
+    }
+  }
+   */
